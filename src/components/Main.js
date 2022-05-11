@@ -1,6 +1,9 @@
+import ItemListContainer from "./ItemListContainer"
 const Main = () => {
   return (
-    <div>Main</div>
+    <main>
+      <ItemListContainer greeting={"hola como estas?"}/>
+    </main>
   )
 }
 export default Main
